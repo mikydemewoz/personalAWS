@@ -196,9 +196,6 @@ export default function ContactMe() {
                     value={formData.message}
                     onChange={handleInputChange}
                   />
-                {/* )} */}
-
-                {/* {sent == "sent" ? success : sent == "fail" ? fail : null} */}
                 <Button
                   type="submit"
                   fullWidth
