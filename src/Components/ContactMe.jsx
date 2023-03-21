@@ -1,20 +1,11 @@
 import SendSharpIcon from "@mui/icons-material/SendSharp";
 import { Alert, Button, Grid, TextField } from "@mui/material";
-import { Box, padding } from "@mui/system";
-import axios from "axios";
+import { Box } from "@mui/system";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 export default function ContactMe() {
 
-  const success = (
-    <Alert severity="success">Thank you for contacting me </Alert>
-  );
-  const fail = (
-    <Alert severity="error">
-      There seems to be a problem while sending your request
-    </Alert>
-  );
 
   const [formData, setFormData] = useState({
     name: "",
