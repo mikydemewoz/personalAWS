@@ -169,21 +169,6 @@ export default function ContactMe() {
                     value={formData.subject}
                     onChange={handleInputChange}
                   />
-                {/* {formData. emptyMessage ? (
-                  <TextField
-                    margin="normal"
-                    required
-                    fullWidth
-                    name="message"
-                    label="Message"
-                    id="message"
-                    multiline
-                    rows={4}
-                    error
-                    helperText="Please enter your message"
-                  />
-                ) :  */}
-                {/* ( */}
                   <TextField
                     margin="normal"
                     required
