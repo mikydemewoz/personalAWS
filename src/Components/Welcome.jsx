@@ -7,7 +7,7 @@ export default function Welcome() {
     >
       <Avatar
         alt="Michael Admasu"
-        src="./profile1.jpeg"
+        src="https://firebasestorage.googleapis.com/v0/b/pet-adoption-f2ba2.appspot.com/o/IMG_2055.JPEG?alt=media&token=7ff07da1-2299-4dd5-a2b1-041c9c032675"
         sx={{ width: 200, height: 200, display:'inline-block' }}
       />
       <h3>Hi, I am Michael Admasu</h3>

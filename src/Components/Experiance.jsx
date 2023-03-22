@@ -13,7 +13,7 @@ import BuildIcon from '@mui/icons-material/Build';
 
 export default function CustomizedTimeline() {
   return (
-    <Timeline position="alternate">
+    <Timeline position="alternate"  sx={{ maxWidth: "800px", margin: "0 auto" }}>
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: "auto 0" }}
@@ -81,21 +81,6 @@ export default function CustomizedTimeline() {
           <Typography>Graphic designer and Web developer</Typography>
         </TimelineContent>
       </TimelineItem>
-      {/* <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-          <TimelineDot color="secondary">
-            <RepeatIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span">
-            Repeat
-          </Typography>
-          <Typography>Because this is the life you love!</Typography>
-        </TimelineContent>
-      </TimelineItem> */}
     </Timeline>
   );
 }

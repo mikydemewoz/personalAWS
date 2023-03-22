@@ -113,6 +113,13 @@ export default function ContactMe() {
                     autoComplete="FullName"
                     value={formData.name}
                     onChange={handleInputChange}
+                    sx={{
+                      '& .MuiInputBase-input': {
+                        backgroundColor: '#f0f0f0',
+                        borderRadius: '5px',
+                        padding: '10px'
+                      }
+                    }}
                   />
                 {/* {formData.emptyEmail ? (
                   <TextField

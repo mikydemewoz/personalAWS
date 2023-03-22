@@ -4,7 +4,7 @@ import WorkCard from "./WorkCard";
 export default function Portfolio() {
   return (
     <div
-      style={{ margin: "50px auto", backgroundColor: "#F7F7F7", width: "100%" }}
+      style={{ margin: "0px auto", backgroundColor: "#F7F7F7", width: "100%" }}
     >
       <Box sx={{border:'1px solid #F7F7F7'}} padding={5} >
         <Grid
